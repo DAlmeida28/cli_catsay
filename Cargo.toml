@@ -1,0 +1,11 @@
+[package]
+name = "catsay"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.70"
+assert_cmd = "2.0.10"
+clap = { version = "4.2.1", features = ["derive"] }
+colored = "2.0.0"
+predicates = "3.0.2"
